@@ -1,0 +1,330 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Font */
+
+/* Start Body */
+body {
+    color: rgb(38, 4, 134);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height:1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Heading */
+h1 {
+    color: rgb(158, 0, 97);
+/* End Heading */
+}
+/* Start Debug */
+.bg-pink {
+    background-color: pink;
+}
+.bg-pink{
+    background-color: pink;
+}
+/* End Debug */    
+
+/* Start Container */
+.container {
+    background-color: #ffffff;
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo { 
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: #ac070f;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul{
+    background-color: rgb(240, 164, 243);
+    border-radius: 3px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(110, 97, 97, 0.4),
+        0 1px 10px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #120368;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #171717;
+    color: #02020e;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #60c9a6;
+    border: 1px solid #0a3575;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 40px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 25px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;    
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+/* End Main */
+
+/* Star Box */
+.box heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    padding: 10px 20px;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0; 
+}
+
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecaf;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+    border-left: 4px solid #dfe2ed;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* End Testimonial */
+
+/* Start Layanan Table */
+.layanan-table {
+    border: 1px solid #d1d5da;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.layanan-table {
+    background-color: #f6f8fa;
+}
+.layanan-table td {
+    text-align: center;
+}
+/* End Layanan Table */
+
+/* Start Form */
+    input[type="text"],
+    input[type="email"];
+    textarea {        
+    }
+/* End Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: #f6fBfa;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Wow Factor */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1580 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1580 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1580 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1580 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.snip1580 h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 3px 0;
+}
+.snip1580 h5 {
+  font-weight: 400;
+  margin: 0;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+.snip1580 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1580:hover figcaption,
+.snip1580.hover figcaption {
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: #fff;
+}
+.snip1580:hover h3,
+.snip1580.hover h3,
+.snip1580:hover h5,
+.snip1580.hover h5 {
+  color: #333;
+}
+
+/* End Wow Factor */
